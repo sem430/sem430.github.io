@@ -1,0 +1,27 @@
+/* Full-page background image styling with upper part focus */
+.full-page-image {
+    background-image: url('images/goalie.JPG'); /* Path to the image */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: top; /* Show more of the upper part of the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: relative;
+}
+
+/* Overlay text box styling */
+.overlay-text {
+    position: absolute;
+    font-size: 40px;
+    background-color: #FFA5F7;
+    bottom: 566px;
+    left: 637px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border-radius: 10px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    padding-right: 16px;
+}
+.full-page-image .overlay-text {
+}
